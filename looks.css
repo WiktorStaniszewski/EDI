@@ -3,38 +3,91 @@ body, html {
     margin: 0;
 }
 #cover {
-    background-image: url(low-poly-grid-haikei.svg);
-    height: 100vh;
+    background-image: url('low-poly-grid-haikei2.svg');
+    height: 100%;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow:auto;
 }
 .textincover {
-    color: aliceblue;
+    color: antiquewhite;
     font-size: 3.5rem;
     font-family: Sofia, sans-serif;
-    text-shadow: 3px 3px 3px #5b56b9;
+    text-shadow: 3px 3px 3px #833833;
     margin-bottom: 0;
+}
+.textundercover {
+    color: antiquewhite;
+    font-family: Sofia, sans-serif;
+
 }
 .button {
     padding: 20px;
     border-radius: 20%;
-    border-color: #9a96e1;
+    border-color: #e7c1be;
     border-width: 5px;
-    background-image: url(blurry-gradient-haikei.svg);
-    color: aliceblue;
+    background-image: url('stacked-peaks-haikei1.svg');
+    color: antiquewhite;
     font-style: italic;
     font-family: Sofia;
     font-size: 1.5rem;
 }
 #the_right_page{
-    background-image: url(symbol-scatter-haikei.svg);
-    height: 100%;
+    background-image: url('circle-scatter-haikei1.svg');
+    height: 100%vh;
     flex-direction: column;
     display: flex;
 }
 .text {
     text-align: left;
     color: antiquewhite;
+    font-size: 3rem;
+    background: rgb(131,56,51);
+    background: radial-gradient(circle, rgba(131,56,51,1) 50%, rgba(35,33,33,1) 92%);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ad6661;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-family: "Sofia", serif;
+    font-weight: lighter;
+
+    
+}
+.button1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border-color: #e7c1be;
+    border-width: 5px;
+    background-image: url('stacked-peaks-haikei1.svg');
+    color: antiquewhite;
+    font-size: 1.5rem;
+    margin-left: 50px;
+}
+.break_point {
+    background-image: url('layered-peaks-haikei.svg');
+    
+}
+.text1 {
+    text-align: left;
+    color: antiquewhite;
+    font-size: 2rem;
+    background: rgb(131,56,51);
+    background: radial-gradient(circle, rgba(131,56,51,1) 50%, rgba(35,33,33,1) 92%);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ad6661;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-family: "Sofia", serif;
+    font-weight: lighter;
 }

@@ -9,13 +9,27 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
 </head>
 <body>
+
     <div id="cover">
-        <div class="textincover font-effect-outline">Welcome to a magical world of EDI:</div>
+        <div class="textincover font-effect-outline">Discover the greatest bands' albums of all time!</div>
+        <div class="textundercover">by: Wiktor Staniszewski, Jakub Dziektarz, Paweł Szczecina</div>
         <br>
-        <button class="button" onclick="dissapear()">Click here for a magical experience:</button>
+        <button class="button" onclick="dissapear()">Click here for a magical experience :</button>
     </div>
+
     <div id="the_right_page" style="display: none;">
-        <h1 class="text">The Greatest bands' albums of all time</h1>
+        <h1 class="text">
+            The Greatest bands' albums of all time:<br>
+            <a href="#one" class="button1">First</a> 
+            <a href="#two" class="button1">Second</a> 
+            <a href="#three" class="button1">Third</a> 
+            <a href="#last" class="button1">Last</a>
+        </h1>
+        <h2 class="text" id="one">First paragraph <a href="#the_right_page" class="button1">Go to the top^</a></h2>
+        <h2 class="text" id="two">Second paragraph <a href="#the_right_page" class="button1">Go to the top^</a></h2>
+        <h2 class="text" id="three">Third paragraph <a href="#the_right_page" class="button1">Go to the top^</a></h2>
+        <h2 class="text" id="last">Last paragraph <a href="#the_right_page" class="button1">Go to the top^</a></h2>
     </div>
+
 </body>
 </html>
