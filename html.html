@@ -7,9 +7,7 @@
     <script src="animations.js"></script>
     <link rel="stylesheet" href="looks.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
-    <button onclick="fetchAndDisplayData()">Fetch Data</button>
     <script src="fetchData.js"></script>
-    <table id="data"></table>
     <link rel="stylesheet" href="table_style.css">
 </head>
 <body>
@@ -22,17 +20,26 @@
     </div>
 
     <div id="the_right_page" style="display: none;">
-        <h1 class="text">
-            The Greatest bands' albums of all time:<br>
-            <a href="#one" class="button1">First</a> 
-            <a href="#two" class="button1">Second</a> 
-            <a href="#three" class="button1">Third</a> 
-            <a href="#last" class="button1">Last</a>
-        </h1>
-        <h2 class="text" id="one">First paragraph <a href="#the_right_page" class="button1">Go to the top^</a></h2>
-        <h2 class="text" id="two">Second paragraph <a href="#the_right_page" class="button1">Go to the top^</a></h2>
-        <h2 class="text" id="three">Third paragraph <a href="#the_right_page" class="button1">Go to the top^</a></h2>
-        <h2 class="text" id="last">Last paragraph <a href="#the_right_page" class="button1">Go to the top^</a></h2>
+        <div class="background">
+            
+            <h2 class="text">
+                The Greatest bands' albums of all time:<button class="buttonrthp" onclick="dissapear()">Return to Home Page</button><br></h2>
+                <div class="links">
+                    <a href="#one" class="button1">First</a> 
+                    <a href="#two" class="button1">Second</a> 
+                    <a href="#three" class="button1">Third</a> 
+                    <a href="#last" class="button1">Last</a>
+                </div>
+                
+            <h2 class="text1" id="one">API Data Presentation: <a href="#the_right_page" class="button1">Go to the top^</a></h2>
+            <button class="buttondisplaydata" onclick="fetchAndDisplayData()">Display Data</button>
+            <div id="scrollable" style="display: none;">
+                <table id="data"></table>
+            </div>
+            <h2 class="text1" id="two"><a href="#the_right_page" class="button1">Go to the top^</a> Second paragraph</h2>
+            <h2 class="text1" id="three">Third paragraph <a href="#the_right_page" class="button1">Go to the top^</a></h2>
+            <h2 class="text1" id="last"><a href="#the_right_page" class="button1">Go to the top^</a> Last paragraph</h2>
+        </div>
     </div>
 
 </body>

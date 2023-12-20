@@ -6,10 +6,14 @@ body, html {
     background-image: url('low-poly-grid-haikei2.svg');
     height: 100%;
     flex-direction: column;
+    display: block;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow:auto;
+    top: 50%;
+    left: 50%;
+
 }
 .textincover {
     color: antiquewhite;
@@ -21,7 +25,8 @@ body, html {
 .textundercover {
     color: antiquewhite;
     font-family: Sofia, sans-serif;
-
+    font-size: 1.1rem;
+    text-shadow: 3px 3px 3px #833833;
 }
 .button {
     padding: 20px;
@@ -33,12 +38,21 @@ body, html {
     font-style: italic;
     font-family: Sofia;
     font-size: 1.5rem;
+    text-shadow: 3px 3px 3px #833833;
 }
 #the_right_page{
-    background-image: url('circle-scatter-haikei1.svg');
     height: 100%vh;
+    width: 100%vh;
     flex-direction: column;
     display: flex;
+    overflow:auto;
+
+}
+.background {
+    background-image: url('circle-scatter-haikei1.svg');
+    overflow: auto;
+    margin: 0;
+    height: 100vh;
 }
 .text {
     text-align: left;
@@ -54,9 +68,8 @@ body, html {
     margin-left: 20px;
     margin-right: 20px;
     font-family: "Sofia", serif;
-    font-weight: lighter;
-
-    
+    font-weight: lighter;  
+    text-decoration: underline;  
 }
 .button1 {
     padding-left: 30px;
@@ -66,19 +79,19 @@ body, html {
     border-radius: 30px;
     border-color: #e7c1be;
     border-width: 5px;
-    background-image: url('stacked-peaks-haikei1.svg');
+    background-image: url('low-poly-grid-haikei1.svg');
     color: antiquewhite;
     font-size: 1.5rem;
     margin-left: 50px;
+    margin-right: 50px;
 }
 .break_point {
     background-image: url('layered-peaks-haikei.svg');
-    
 }
 .text1 {
     text-align: left;
     color: antiquewhite;
-    font-size: 2rem;
+    font-size: 2.5rem;
     background: rgb(131,56,51);
     background: radial-gradient(circle, rgba(131,56,51,1) 50%, rgba(35,33,33,1) 92%);
     border-radius: 20px;
@@ -90,4 +103,78 @@ body, html {
     margin-right: 20px;
     font-family: "Sofia", serif;
     font-weight: lighter;
+}
+table tr,td,th{
+    background-image: url();
+    color: antiquewhite;
+    border-color: aliceblue;
+    border-radius: 20px;    
+    position:relative;
+    border: solid 4px
+}
+table {
+    border: solid 4px;
+}
+#data {
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: solid 2px antiquewhite;
+    justify-content: center;
+}
+#data th {
+    border-color: antiquewhite;
+    text-align: center;
+    font-size: 1.2em;
+    border: dotted 5px;
+    position:static;
+}
+#data td {
+    border: double 3px;
+    border-color: #6d2924 antiquewhite;
+    font-size: 1.1em;
+}
+.buttondisplaydata {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border-color: #e7c1be;
+    border-width: 5px;
+    width: 40%;
+    position:relative;
+    left: 31%;
+    background-image: url('stacked-peaks-haikei1.svg');
+    color: antiquewhite;
+    font-size: 1.5rem;
+    font-family: Sofia, serif;
+}
+#scrollable {
+    overflow:scroll;
+    height:600px;
+}
+.buttonrthp {
+    border-radius: 20%;
+    border-color: #e7c1be;
+    border-width: 5px;
+    background-image: url('stacked-peaks-haikei1.svg');
+    color: antiquewhite;
+    font-style: italic;
+    font-family: Sofia;
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+#two {
+    text-align: right;
+    
+}
+#last {
+    text-align: right;
+}
+.links {
+    margin-top: -10px;
 }
