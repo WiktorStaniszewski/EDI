@@ -1,0 +1,15 @@
+    table {
+        width: auto;
+        border: 2px;
+        font-style:italic;
+        border-radius: 12px; /* Zaokrąglone krawędzie */
+        overflow: hidden; /* Ukryj zawartość, która wyjdzie poza obręb tabeli */
+        box-shadow: 0 0 10px rgba(255, 216, 216, 0.1); /* Cień */
+    }
+
+    th, td {
+        border: 1px solid #7f1734;
+        padding: 6px;
+        text-align: left;
+        font-size: 14px;
+    }
