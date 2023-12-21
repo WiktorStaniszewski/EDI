@@ -13,11 +13,10 @@ body, html {
     overflow:auto;
     top: 50%;
     left: 50%;
-
 }
 .textincover {
     color: antiquewhite;
-    font-size: 3.5rem;
+    font-size: 3.5em;
     font-family: Sofia, sans-serif;
     text-shadow: 3px 3px 3px #833833;
     margin-bottom: 0;
@@ -46,10 +45,9 @@ body, html {
     flex-direction: column;
     display: flex;
     overflow:auto;
-
 }
 .background {
-    background-image: url('circle-scatter-haikei1.svg');
+    background-image: url('low-poly-grid-haikei1.svg');
     overflow: auto;
     margin: 0;
     height: 100vh;
@@ -57,9 +55,9 @@ body, html {
 .text {
     text-align: left;
     color: antiquewhite;
-    font-size: 3rem;
+    font-size: 3.5rem;
     background: rgb(131,56,51);
-    background: radial-gradient(circle, rgba(131,56,51,1) 50%, rgba(35,33,33,1) 92%);
+    background: radial-gradient(circle, rgb(131,56,51,1) 0%, rgb(35,33,33,1) 100%);
     border-radius: 20px;
     border-style: solid;
     border-color: #ad6661;
@@ -70,6 +68,7 @@ body, html {
     font-family: "Sofia", serif;
     font-weight: lighter;  
     text-decoration: underline;  
+    backdrop-filter: blur(5px);
 }
 .button1 {
     padding-left: 30px;
@@ -79,25 +78,40 @@ body, html {
     border-radius: 30px;
     border-color: #e7c1be;
     border-width: 5px;
-    background-image: url('low-poly-grid-haikei1.svg');
+    background-image: url('blurry-gradient-haikei1.svg');
     color: antiquewhite;
     font-size: 1.5rem;
     margin-left: 50px;
     margin-right: 50px;
+    border: solid 1px antiquewhite;
+    scroll-behavior: smooth;
 }
-.break_point {
-    background-image: url('layered-peaks-haikei.svg');
+.faded_bg {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: -20px;
+    border-radius: 20px;
+    height: auto;
+    margin-top: -20px;
+    color: #232121;
+    background-color: #232121;
+    overflow:auto;
+    margin-bottom: 10px;
+    border: solid #111010;
 }
 .text1 {
     text-align: left;
     color: antiquewhite;
-    font-size: 2.5rem;
+    font-size: 2rem;
     background: rgb(131,56,51);
-    background: radial-gradient(circle, rgba(131,56,51,1) 50%, rgba(35,33,33,1) 92%);
+    background: radial-gradient(circle, rgb(131,56,51,1) 0%, rgb(35,33,33,1) 100%);
     border-radius: 20px;
     border-style: solid;
+    border: solid, 20px;
     border-color: #ad6661;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     padding-left: 15px;
     margin-left: 20px;
     margin-right: 20px;
@@ -117,26 +131,30 @@ table {
 }
 #data {
     width: 97%;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-top: solid 2px antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #111010;
+    padding: 10px;
     justify-content: center;
 }
 #data th {
     border-color: antiquewhite;
     text-align: center;
     font-size: 1.2em;
-    border: dotted 5px;
+    border: double 5px;
+    vertical-align: top;
     position:static;
+    background-image: url(low-poly-grid-haikei2.svg);
 }
 #data td {
     border: double 3px;
     border-color: #6d2924 antiquewhite;
     font-size: 1.1em;
+    text-align: center;
 }
 .buttondisplaydata {
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -148,12 +166,15 @@ table {
     left: 31%;
     background-image: url('stacked-peaks-haikei1.svg');
     color: antiquewhite;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-family: Sofia, serif;
 }
 #scrollable {
-    overflow:scroll;
+    padding-top: 26px;
+    overflow: scroll;
     height:600px;
+    overflow-x: hidden;
+    margin-right: 15x;
 }
 .buttonrthp {
     border-radius: 20%;
@@ -169,12 +190,32 @@ table {
     margin-top: 7px;
 }
 #two {
-    text-align: right;
-    
+    text-align: right; 
 }
 #last {
     text-align: right;
 }
 .links {
-    margin-top: -10px;
+    height: 100px;
+    width: 98%;
+    margin: auto;
+    text-align: center;
+    background-color: #232121;  
+    border-radius: 20px;
+    border: solid #111010;
+    font-family: "Sofia", serif;
+    padding-bottom: 2em;
+}
+::-webkit-scrollbar {
+    color: #833833;
+    border-color: antiquewhite;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #625e5e;
+}
+::-webkit-scrollbar-thumb {
+    background: #87403b;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #743d39;
+    border: solid 1px #2e1f1f;
 }
