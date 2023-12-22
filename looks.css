@@ -56,19 +56,17 @@ body, html {
     text-align: left;
     color: antiquewhite;
     font-size: 3.5rem;
-    background: rgb(131,56,51);
-    background: radial-gradient(circle, rgb(131,56,51,1) 0%, rgb(35,33,33,1) 100%);
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
     border-style: solid;
-    border-color: #ad6661;
+    border-color: #210b09;
     padding-bottom: 10px;
     padding-left: 15px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 14.5px;
+    margin-right: 15px;
     font-family: "Sofia", serif;
     font-weight: lighter;  
     text-decoration: underline;  
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(40px);
 }
 .button1 {
     padding-left: 30px;
@@ -95,7 +93,7 @@ body, html {
     height: auto;
     margin-top: -20px;
     color: #232121;
-    background-color: #232121;
+    backdrop-filter: blur(30px);
     overflow:auto;
     margin-bottom: 10px;
     border: solid #111010;
@@ -109,7 +107,7 @@ body, html {
     border-radius: 20px;
     border-style: solid;
     border: solid, 20px;
-    border-color: #ad6661;
+    border-color: #210b09;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -145,8 +143,8 @@ table tr,td,th{
     background-image: url(low-poly-grid-haikei2.svg);
 }
 #data td {
-    border: double 3px;
-    border-color: #6d2924 antiquewhite;
+    border: solid 2px;
+    border-color: #232121;
     font-size: 1.1em;
     text-align: center;
 }
@@ -199,11 +197,12 @@ table tr,td,th{
     margin: auto;
     text-align: center;
     background-color: #232121;  
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
     border: solid #111010;
     font-family: "Sofia", serif;
     padding-bottom: 4em;
-    margin-top: -30px;
+    margin-top: -38px;
+    margin-bottom: 20px;
 }
 ::-webkit-scrollbar {
     color: #833833;
