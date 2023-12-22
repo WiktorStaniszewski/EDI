@@ -1,4 +1,3 @@
-
 async function fetchAndDisplayData() {
     const apiKey = '84223600'; // Will change when proper schema will be used
     const apiUrl = `https://my.api.mockaroo.com/users.json?key=${apiKey}`;
