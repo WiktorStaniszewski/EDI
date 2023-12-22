@@ -4,7 +4,7 @@
         font-style:italic;
         border-radius: 12px; /* Zaokrąglone krawędzie */
         overflow: hidden; /* Ukryj zawartość, która wyjdzie poza obręb tabeli */
-        box-shadow: 0 0 10px rgba(255, 216, 216, 0.1); /* Cień */
+        /*box-shadow: 0 0 10px #ffd8d81a; /* Cień */ /*ffd8d81a*/
     }
 
     th, td {

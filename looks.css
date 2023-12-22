@@ -53,20 +53,48 @@ body, html {
     height: 100vh;
 }
 .text {
-    text-align: left;
+    width: 98.3%;
     color: antiquewhite;
-    font-size: 3.5rem;
+    font-size: 3.5em;
     border-radius: 20px 20px 0px 0px;
-    border-style: solid;
-    border-color: #210b09;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #111010;
     padding-bottom: 10px;
     padding-left: 15px;
-    margin-left: 14.5px;
-    margin-right: 15px;
     font-family: "Sofia", serif;
     font-weight: lighter;  
     text-decoration: underline;  
     backdrop-filter: blur(40px);
+}
+.links {
+    height: 20px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #232121;  
+    border-radius: 0px 0px 20px 20px;
+    border: solid #111010;
+    font-family: "Sofia", serif;
+    padding-bottom: 4.1em;  
+}
+.buttonrthp {
+    border-radius: 20%;
+    border-color: #e7c1be;
+    border-width: 5px;
+    background-image: url('stacked-peaks-haikei1.svg');
+    color: antiquewhite;
+    font-style: italic;
+    font-family: Sofia, serif;
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 7px;
+    margin-top: 7px;
 }
 .button1 {
     padding-left: 30px;
@@ -102,12 +130,11 @@ body, html {
     text-align: left;
     color: antiquewhite;
     font-size: 2rem;
-    background: rgb(131,56,51);
-    background: radial-gradient(circle, rgb(131,56,51,1) 0%, rgb(35,33,33,1) 100%);
+    background: radial-gradient(#833833 20%, #232121 100%);
     border-radius: 20px;
     border-style: solid;
     border: solid, 20px;
-    border-color: #210b09;
+    border-color: #111010;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -118,18 +145,11 @@ body, html {
     font-weight: lighter;
 }
 table tr,td,th{
-    background-image: url();
     color: antiquewhite;
-    border-color: aliceblue;
     border-radius: 20px;    
-    position: relative;
-    border: solid 4px
 }
 #data {
-    width: 97%;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 2px #111010;
+    width: 98%;
     padding: 10px;
     justify-content: center;
 }
@@ -166,47 +186,25 @@ table tr,td,th{
     font-family: Sofia, serif;
 }
 #scrollable {
-    padding-top: 26px;
     overflow: scroll;
-    height:600px;
+    height: 604px;
     overflow-x: hidden;
-    margin-right: 15x;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: solid #111010;
 }
-.buttonrthp {
-    border-radius: 20%;
-    border-color: #e7c1be;
-    border-width: 5px;
-    background-image: url('stacked-peaks-haikei1.svg');
-    color: antiquewhite;
-    font-style: italic;
-    font-family: Sofia;
-    font-size: 1.5rem;
-    float: right;
-    margin-right: 7px;
-    margin-top: 7px;
-}
+
 #two {
     text-align: right; 
 }
 #last {
     text-align: right;
 }
-.links {
-    height: 20px;
-    width: 98%;
-    margin: auto;
-    text-align: center;
-    background-color: #232121;  
-    border-radius: 0px 0px 20px 20px;
-    border: solid #111010;
-    font-family: "Sofia", serif;
-    padding-bottom: 4em;
-    margin-top: -38px;
-    margin-bottom: 20px;
-}
 ::-webkit-scrollbar {
     color: #833833;
     border-color: antiquewhite;
+    border-radius: 20px;
 }
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px #625e5e;
