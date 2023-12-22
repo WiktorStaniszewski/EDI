@@ -149,7 +149,7 @@ table tr,td,th{
     border-radius: 20px;    
 }
 #data {
-    width: 98%;
+    width: 100%;
     padding: 10px;
     justify-content: center;
 }
