@@ -81,7 +81,7 @@ body, html {
     border-radius: 0px 0px 20px 20px;
     border: solid #111010;
     font-family: "Sofia", serif;
-    padding-bottom: 4.1em;  
+    padding-bottom: 4.1em; 
 }
 .buttonrthp {
     border-radius: 20%;
@@ -110,7 +110,6 @@ body, html {
     margin-left: 50px;
     margin-right: 50px;
     border: solid 1px antiquewhite;
-    scroll-behavior: smooth;
 }
 .faded_bg {
     width: 98%;
