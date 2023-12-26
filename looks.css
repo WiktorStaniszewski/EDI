@@ -111,6 +111,25 @@ body, html {
     margin-right: 50px;
     border: solid 1px antiquewhite;
 }
+.button2 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border-color: #e7c1be;
+    border-width: 5px;
+    background-image: url('blurry-gradient-haikei1.svg');
+    color: antiquewhite;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid 1px antiquewhite;
+    display: none
+}
 .faded_bg {
     width: 98%;
     margin-left: auto;
@@ -192,13 +211,6 @@ table tr,td,th{
     margin-left: 15px;
     border-radius: 20px;
     border: solid #111010;
-}
-
-#two {
-    text-align: right; 
-}
-#last {
-    text-align: right;
 }
 ::-webkit-scrollbar {
     color: #833833;
