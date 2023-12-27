@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ed, Edd i EDI&lt;3</title>
+    <script src="chart.umd.js"></script>
     <script src="animations.js"></script>
     <link rel="stylesheet" href="looks.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
     <script src="fetchData.js"></script>
     <link rel="stylesheet" href="table_style.css">
+    <link rel="stylesheet" href="graph_style.css">
 </head>
 <body>
 
@@ -40,8 +42,12 @@
                 <div id="scrollable" style="display: none;">
                     <table id="data"></table>
                 </div>
-                <h2 class="text1" id="two">Second paragraph</h2>
-                <h2 class="text1" id="three">Third paragraph</h2>
+                <h2 class="text1" id="two">Data Graph nr 1 - Earnings Comparison</h2>
+                <select name="bands" id="bands" onchange="updateGraph1();">
+                </select>
+                    <canvas id="graph1" class="graph1"></canvas> <!--wykres 1-->
+                <h2 class="text1" id="three">Data Graph nr 2 - Top1 Across The Years</h2>
+                    <canvas id="graph2" class="graph2"></canvas> <!--wykres 2-->
                 <h2 class="text1" id="last">Last paragraph</h2>
             </div>
         </div>

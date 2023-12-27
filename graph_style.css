@@ -1,0 +1,25 @@
+/*
+dla potomnych, co będą to czytać
+niektóre style są tutaj, niektóre informacje są w
+pliku fetchData.js, w funkcjach drawGraph1 i drawGraph2
+więc jak co, to szukajcie i tam.
+*/
+.graph1{
+    display: none;
+    margin: 5px auto;
+    width: 40%;
+    background-color: #2e1f1f;
+    box-shadow: 10px 10px 15px #2e1f1f;
+}
+.graph2{
+    display: none;
+    margin: 5px auto;
+    width: 70%;
+    background-color: #2e1f1f;
+    box-shadow: 10px 10px 15px #2e1f1f;
+}
+select {
+    display: none;
+    margin: 0 auto;
+    background-color: #e7c1be
+    }
