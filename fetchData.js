@@ -109,6 +109,7 @@ var noted_years = [], top_album_scores = [], top_album_names = [];
     //do selecta dodaj wszystkie zespoły
     var select_tag = document.getElementById("bands");
     select_tag.style.display = "block"
+    select_tag.innerHTML="";
     selected_band = band_list[0]
     for (i=0;i<band_list.length;i++){
       select_tag.innerHTML+="<option value = "+band_list[i].replaceAll(" ", "_")+">"+band_list[i]+"</option>"
