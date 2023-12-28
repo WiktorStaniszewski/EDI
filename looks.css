@@ -109,6 +109,7 @@ body, html {
     font-size: 1.5rem;
     margin-left: 50px;
     margin-right: 50px;
+    text-decoration: dashed;
     border: solid 1px antiquewhite;
 }
 .button2 {
@@ -141,7 +142,7 @@ body, html {
     color: #232121;
     backdrop-filter: blur(30px);
     overflow:auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     border: solid #111010;
 }
 .text1 {
@@ -187,21 +188,22 @@ table tr,td,th{
     text-align: center;
 }
 .buttondisplaydata {
-    padding-left: 30px;
-    padding-right: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 20px;
     border-radius: 30px;
     border-color: #e7c1be;
     border-width: 5px;
-    width: 40%;
+    width: 30%;
     position:relative;
-    left: 31%;
+    margin-left: 30px;
     background-image: url('stacked-peaks-haikei1.svg');
     color: antiquewhite;
     font-size: 1.5em;
     font-family: Sofia, serif;
+}
+.buttons {
+    text-align: center;
 }
 #scrollable {
     overflow: scroll;

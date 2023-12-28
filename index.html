@@ -6,9 +6,9 @@
     <title>Ed, Edd i EDI&lt;3</title>
     <script src="chart.umd.js"></script>
     <script src="animations.js"></script>
+    <script src="fetchData.js"></script>
     <link rel="stylesheet" href="looks.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
-    <script src="fetchData.js"></script>
     <link rel="stylesheet" href="table_style.css">
     <link rel="stylesheet" href="graph_style.css">
 </head>
@@ -29,26 +29,26 @@
                 </div>
                 <div class="links">
                     <br>
-                    <a href="#one" class="button1">First</a>
-                    <a href="#two" class="button1">Second</a> 
-                    <a href="#three" class="button1">Third</a> 
-                    <a href="#last" class="button1">Last</a>
+                    <a href="#one" class="button1">API Table</a>
+                    <a href="#two" class="button1">Earnings</a> 
+                    <a href="#three" class="button1">Rating</a> 
                 </div>
                 <br><br>
             </div>
             <div class="faded_bg">
                 <h2 class="text1" id="one">API Data Presentation</h2>
-                <button class="buttondisplaydata" onclick="fetchAndDisplayData()">Display Data</button>
+                <div class="buttons">
+                    <button class="buttondisplaydata" onclick="fetchAndDisplayData()">Generate Data</button>
+                </div>
                 <div id="scrollable" style="display: none;">
                     <table id="data"></table>
                 </div>
-                <h2 class="text1" id="two">Data Graph nr 1 - Earnings Comparison</h2>
+                <h2 class="text1" id="two">Earnings Comparison</h2>
                 <select name="bands" id="bands" onchange="updateGraph1();">
                 </select>
                     <canvas id="graph1" class="graph1"></canvas> <!--wykres 1-->
-                <h2 class="text1" id="three">Data Graph nr 2 - Top1 Across The Years</h2>
+                <h2 class="text1" id="three">Top1 Across The Years</h2>
                     <canvas id="graph2" class="graph2"></canvas> <!--wykres 2-->
-                <h2 class="text1" id="last">Last paragraph</h2>
             </div>
         </div>
     </div>

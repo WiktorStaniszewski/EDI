@@ -17,6 +17,7 @@ więc jak co, to szukajcie i tam.
     width: 70%;
     background-color: #2e1f1f;
     box-shadow: 10px 10px 15px #2e1f1f;
+    margin-bottom: 30px;
 }
 select {
     display: none;
