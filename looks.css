@@ -97,10 +97,7 @@ body, html {
     margin-top: 7px;
 }
 .button1 {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 30px 10px 30px;
     border-radius: 30px;
     border-color: #e7c1be;
     border-width: 5px;
@@ -111,6 +108,12 @@ body, html {
     margin-right: 50px;
     text-decoration: dashed;
     border: solid 1px antiquewhite;
+    box-shadow: 1px 2px 5px antiquewhite;
+}
+.button1:hover{
+    background-image: none;
+    background-color: #2e1f1f;
+    box-shadow: 2px 3px 5px rgb(97, 95, 93);
 }
 .button2 {
     position: fixed;
@@ -129,7 +132,12 @@ body, html {
     margin-left: 50px;
     margin-right: 50px;
     border: solid 1px antiquewhite;
-    display: none
+    display: inline;
+}
+.button2:hover {
+    background-image: none;
+    background-color: #2e1f1f;
+    box-shadow: 2px 3px 5px rgb(97, 95, 93);
 }
 .faded_bg {
     width: 98%;
