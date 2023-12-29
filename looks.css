@@ -132,7 +132,7 @@ body, html {
     margin-left: 50px;
     margin-right: 50px;
     border: solid 1px antiquewhite;
-    display: inline;
+    display: none;
 }
 .button2:hover {
     background-image: none;
