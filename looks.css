@@ -119,10 +119,7 @@ body, html {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 25px 10px 25px;
     border-radius: 30px;
     border-color: #e7c1be;
     border-width: 5px;
@@ -133,11 +130,12 @@ body, html {
     margin-right: 50px;
     border: solid 1px antiquewhite;
     display: none;
+    box-shadow: 3px 3px 5px #232121;
 }
 .button2:hover {
     background-image: none;
     background-color: #2e1f1f;
-    box-shadow: 2px 3px 5px rgb(97, 95, 93);
+    box-shadow: 2px 3px 5px rgb(67, 65, 64);
 }
 .faded_bg {
     width: 98%;
