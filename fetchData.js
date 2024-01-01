@@ -128,6 +128,10 @@ var noted_years = [], top_album_scores = [], top_album_names = [];
     drawGraph1(graph_labels,graph_data)
 
     //wykres 2
+    //wyzeruj dane do wykresu - gdyby jakieś poprzednio zostały
+    noted_years = [];
+    top_album_scores = [];
+    top_album_names = [];
     //sprawdź wszystkie unikalne lata - bez dni czy miesięcy
 
     for (i=0;i<data.length;i++){
